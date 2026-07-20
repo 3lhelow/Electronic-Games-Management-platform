@@ -80,32 +80,6 @@ public class Player extends User {
         return gamesName;
     }
 
-//    public void searchForGames(String name) {
-//        if (Game.getAllGames().isEmpty()) {
-//            System.out.println("There are no games currently, create an object of the Game class and set isAvailable to true");
-//            return;
-//        }
-//
-//        boolean found = false;
-//
-//        for (Game game : Game.getAllGames()) {
-//            if (game.getName().equals(name)) {
-//                found = true;
-//                if (game.isAvailable()) {
-//                    System.out.println("The game is found and available for you");
-//                } else {
-//                    System.out.println("The game is found but not available now");
-//                }
-//                break;
-//            }
-//        }
-//
-//        if (!found) {
-//            System.out.println("The game is not found!");
-//        }
-//    }
-
-
     public ArrayList<Game> getOwnedGames() {
         return ownedGames;
     }
